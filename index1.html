@@ -1,0 +1,203 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#062b3b">
+  <meta name="description" content="Discover unforgettable boating safari experiences. Explore our rides, packages and contact details.">
+  <title>BlueHaven | Boating Safari</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style1.css">
+  <script src="script1.js" defer></script>
+</head>
+<body>
+  <header class="header" id="header">
+    <a href="#home" class="brand" aria-label="BlueHaven home">
+      <span class="brand-icon">≈</span>
+      <span>BLUE<span>HAVEN</span><small> BOATING SAFARI</small></span>
+    </a>
+
+    <button class="menu-toggle" id="menuToggle" aria-label="Open navigation"
+      aria-expanded="false" aria-controls="navLinks">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="nav-links" id="navLinks" aria-label="Main navigation">
+      <a href="#home">Home</a>
+      <a href="#experiences">Experiences</a>
+      <a href="#pricing">Packages</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#contact" class="nav-book">Contact Us <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home" aria-label="Boating safari introduction">
+      <div class="hero-slides" aria-hidden="true">
+        <div class="hero-slide active" style="background-image:url('https://images.unsplash.com/photo-1500375592092-40eb2168fd21?auto=format&fit=crop&w=2000&q=85')"></div>
+        <div class="hero-slide" style="background-image:url('https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=2000&q=85')"></div>
+        <div class="hero-slide" style="background-image:url('https://images.unsplash.com/photo-1473116763249-2faaef81ccda?auto=format&fit=crop&w=2000&q=85')"></div>
+        <div class="hero-slide" style="background-image:url('https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=2000&q=85')"></div>
+      </div>
+
+      <div class="hero-shade"></div>
+
+      <div class="hero-content">
+        <div class="eyebrow"><span class="live-dot"></span> YOUR NEXT ADVENTURE STARTS HERE</div>
+        <h1>Feel the water.<br>Find your <em>wild.</em></h1>
+        <p>Escape the everyday and discover the beauty of the water with a boating experience worth remembering.</p>
+        <div class="hero-actions">
+          <a href="#pricing" class="btn btn-primary">Explore Packages <span>↗</span></a>
+          <a href="#experiences" class="btn btn-glass">Discover Experiences</a>
+        </div>
+        <div class="hero-note"><span>✦</span> Fresh air. Open water. Unforgettable moments.</div>
+      </div>
+
+      <div class="slide-controls">
+        <span class="slide-counter" id="slideCounter">01 <i>/ 04</i></span>
+        <div class="slide-dots" aria-label="Hero image controls">
+          <button class="slide-dot active" data-slide="0" aria-label="Show image 1"></button>
+          <button class="slide-dot" data-slide="1" aria-label="Show image 2"></button>
+          <button class="slide-dot" data-slide="2" aria-label="Show image 3"></button>
+          <button class="slide-dot" data-slide="3" aria-label="Show image 4"></button>
+        </div>
+        <button class="pause-slider" id="pauseSlider" aria-label="Pause slideshow">Ⅱ</button>
+      </div>
+      <a href="#experiences" class="scroll-cue"><span></span> SCROLL TO EXPLORE</a>
+    </section>
+
+    <section class="intro section-pad">
+      <div class="intro-tag">THE BLUEHAVEN EXPERIENCE</div>
+      <h2>More than a ride.<br><span>It's a feeling.</span></h2>
+      <p>From peaceful moments on the water to exciting adventures with your favourite people, make every trip a story worth sharing.</p>
+      <div class="intro-stats">
+        <div><strong>01</strong><span>Choose your ride</span></div>
+        <div><strong>02</strong><span>Bring your people</span></div>
+        <div><strong>03</strong><span>Make memories</span></div>
+      </div>
+    </section>
+
+    <section class="experiences section-pad" id="experiences">
+      <div class="section-heading reveal">
+        <div><span class="section-kicker">MAKE IT YOURS</span><h2>Choose your <span>adventure.</span></h2></div>
+        <p>Find the perfect way to enjoy the water, your way.</p>
+      </div>
+
+      <div class="service-grid">
+        <article class="service-card reveal">
+          <div class="service-image image-one"><span class="image-number">01 / RIDE</span></div>
+          <div class="service-body"><span class="service-icon">↗</span><h3>Adventure Ride</h3><p>Feel the breeze and enjoy an exciting ride across the water.</p><a href="#pricing">View packages <span>→</span></a></div>
+        </article>
+        <article class="service-card reveal">
+          <div class="service-image image-two"><span class="image-number">02 / FAMILY</span></div>
+          <div class="service-body"><span class="service-icon">✳</span><h3>Family Boating</h3><p>Spend quality time together with a memorable water escape.</p><a href="#pricing">View packages <span>→</span></a></div>
+        </article>
+        <article class="service-card reveal">
+          <div class="service-image image-three"><span class="image-number">03 / SCENIC</span></div>
+          <div class="service-body"><span class="service-icon">⌁</span><h3>Scenic Safari</h3><p>Slow down, enjoy the views and experience nature from the water.</p><a href="#pricing">View packages <span>→</span></a></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="pricing section-pad" id="pricing">
+      <div class="section-heading reveal">
+        <div><span class="section-kicker">SIMPLE & TRANSPARENT</span><h2>Your next escape,<br><span>your budget.</span></h2></div>
+        <p>Choose a package that fits your day. Confirm the final price and availability with us before visiting.</p>
+      </div>
+
+      <div class="pricing-grid">
+        <article class="price-card reveal">
+          <span class="price-label">A LITTLE ESCAPE</span>
+          <h3>Quick Ride</h3>
+          <p class="price-description">A short break on the water.</p>
+          <div class="price"><span>₹</span> <strong>XXX</strong> <small>/ person</small></div>
+          <div class="price-rule"></div>
+          <ul><li>✓ Short boating experience</li><li>✓ Basic safety instructions</li><li>✓ Subject to availability</li></ul>
+          <a href="#contact" class="btn btn-outline">Enquire Now <span>↗</span></a>
+        </article>
+        <article class="price-card featured reveal">
+          <span class="popular-tag">POPULAR CHOICE</span>
+          <span class="price-label">MAKE A MEMORY</span>
+          <h3>Classic Safari</h3>
+          <p class="price-description">More time to enjoy the view.</p>
+          <div class="price"><span>₹</span> <strong>XXX</strong> <small>/ person</small></div>
+          <div class="price-rule"></div>
+          <ul><li>✓ Extended boating experience</li><li>✓ Basic safety instructions</li><li>✓ Subject to availability</li></ul>
+          <a href="#contact" class="btn btn-primary">Enquire Now <span>↗</span></a>
+        </article>
+        <article class="price-card reveal">
+          <span class="price-label">YOUR CREW, YOUR DAY</span>
+          <h3>Group Adventure</h3>
+          <p class="price-description">An outing to share with your group.</p>
+          <div class="price"><span>₹</span> <strong>XXX</strong> <small>/ group</small></div>
+          <div class="price-rule"></div>
+          <ul><li>✓ Group package enquiry</li><li>✓ Plan subject to capacity</li><li>✓ Advance confirmation advised</li></ul>
+          <a href="#contact" class="btn btn-outline">Enquire Now <span>↗</span></a>
+        </article>
+      </div>
+      <p class="price-disclaimer">Prices shown are placeholders. Replace them with verified rates. Ride duration, capacity, inclusions and safety requirements must be confirmed with the operator.</p>
+    </section>
+
+    <section class="review-section section-pad" id="reviews">
+      <div class="review-top reveal">
+        <div><span class="section-kicker">REAL EXPERIENCES MATTER</span><h2>Stories from the <span>water.</span></h2><p>See what visitors are saying about their experience.</p></div>
+        <a class="btn btn-google" href="https://www.google.com/maps" target="_blank" rel="noopener noreferrer">★ View Google Reviews <span>↗</span></a>
+      </div>
+      <div class="review-grid">
+        <article class="review-card reveal">
+          <div class="stars" aria-label="Example rating: 5 out of 5">★★★★★</div>
+          <p>“Add a genuine customer review here describing their boating experience.”</p>
+          <div class="review-person"><span class="avatar">G</span><div><strong>Customer Name</strong><small>Replace with an approved testimonial</small></div></div>
+        </article>
+        <article class="review-card reveal">
+          <div class="stars" aria-label="Example rating: 5 out of 5">★★★★★</div>
+          <p>“Add genuine feedback about the service, staff or views after obtaining permission.”</p>
+          <div class="review-person"><span class="avatar">G</span><div><strong>Customer Name</strong><small>Replace with an approved testimonial</small></div></div>
+        </article>
+        <article class="review-card reveal">
+          <div class="stars" aria-label="Example rating: 5 out of 5">★★★★★</div>
+          <p>“Use a real visitor's words here. Do not publish invented reviews as customer feedback.”</p>
+          <div class="review-person"><span class="avatar">G</span><div><strong>Customer Name</strong><small>Replace with an approved testimonial</small></div></div>
+        </article>
+      </div>
+      <p class="review-disclaimer">These are illustrative placeholders, not actual customer reviews or verified ratings. Replace them before publishing.</p>
+    </section>
+
+    <!-- <section class="cta-band">
+      <div class="cta-orb"></div>
+      <div class="cta-content reveal"><span class="section-kicker">THE WATER IS CALLING</span><h2>Your next great<br>memory starts <em>here.</em></h2><p>Have questions about rides, rates or availability? Get in touch with our team.</p><a href="#contact" class="btn btn-light">Let's Talk <span>↗</span></a></div>
+    </section> -->
+
+    <section class="contact section-pad" id="contact">
+      <div class="contact-main reveal">
+        <span class="section-kicker">LET'S CONNECT</span>
+        <h2>Plan your next<br><span>water escape.</span></h2>
+        <p>Contact us to confirm ride timings, current prices, availability and safety requirements before your visit.</p>
+        <a class="btn btn-primary" href="tel:+910000000000">Call the Safari Team <span>↗</span></a>
+      </div>
+      <div class="contact-details reveal">
+        <div class="contact-item"><span class="contact-icon">↗</span><div><small>CALL US</small><a href="tel:+910000000000">+91 XXXXX XXXXX</a></div></div>
+        <div class="contact-item"><span class="contact-icon">⌖</span><div><small>FIND US</small><p>Replace with your verified location</p><a href="https://www.google.com/maps" target="_blank" rel="noopener noreferrer">Get directions ↗</a></div></div>
+        <div class="contact-item"><span class="contact-icon">◷</span><div><small>OPERATING HOURS</small><p>Replace with confirmed timings</p></div></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-top">
+      <a href="#home" class="brand footer-brand"><span class="brand-icon">≈</span><span>BLUE<span>HAVEN</span><small> BOATING SAFARI</small></span></a>
+      <p>Find your calm. Chase your adventure.</p>
+      <a href="#home" class="back-top">BACK TO TOP ↑</a>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span id="year"></span> BlueHaven Boating Safari.</span>
+      <a href="#privacy">Privacy notice</a>
+      <span>Made for moments that matter.</span>
+    </div>
+    <div class="privacy-note" id="privacy"><strong>Privacy notice:</strong> This informational website does not include a contact form or intentionally request personal details. Phone calls and third-party services such as Google Maps are subject to their own privacy practices. If you add booking, analytics or other data collection later, update this notice and implement applicable privacy and consent requirements under Indian law, including the DPDP Act where applicable.</div>
+  </footer>
+</body>
+</html>
